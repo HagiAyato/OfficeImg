@@ -2,8 +2,14 @@
 using System.IO;
 using System.IO.Compression;
 
+/// <summary>
+/// 
+/// </summary>
 namespace OfficeImg
 {
+    /// <summary>
+    /// 
+    /// </summary>
     class Program
     {
         /// <summary>
@@ -19,7 +25,7 @@ namespace OfficeImg
                 {
                     Console.WriteLine("画像を抜き出したいファイルを、本実行ファイルにドラッグ&ドロップしてください。");
                     Console.WriteLine("対象のファイル：word,excel,power pointのうち、Office2007以降のファイル");
-                    Console.WriteLine("　　　　　　　　word,excel,power pointのうち、Office2007以降のファイル");
+                    Console.WriteLine("　　　　　　　　Open Document形式のファイル");
                     return;
                 }
                 foreach (string fname in args)
@@ -31,7 +37,7 @@ namespace OfficeImg
                         Console.WriteLine("ファイルが存在しません。");
                         continue;
                     }
-                    // ファイルの拡張子チェック(docx,pptx,xlsx)
+                    // ファイルの拡張子チェック
                     string type = "", extension = "";
                     extension = Path.GetExtension(fname);
                     switch (extension)
