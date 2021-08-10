@@ -73,7 +73,7 @@ namespace OfficeImg
                     }
                     Console.WriteLine("読み込みファイルの拡張子：{0}", extension);
                     // ファイルを展開
-                    FileInfo info = new System.IO.FileInfo(fname);
+                    FileInfo info = new FileInfo(fname);
                     if (info.Length <= 0)
                     {
                         Console.WriteLine("ファイルサイズ0Byte、このため中に画像はありません。");
