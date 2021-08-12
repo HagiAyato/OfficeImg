@@ -37,7 +37,7 @@ Officeのファイル(docx/xlsx/pptx)から画像を抜き出すコンソール�
   <li>ソフト: Microsoft Visual Studio Community 2017</li>
 </ul>
 <h4>使用ライブラリ</h4>
-・PDFsharp version="1.50.5147"
+特になし
 <h4>著作権</h4>
 Copyright (C) 2021 HA Works
 <h4>問い合わせ・規約</h4>
